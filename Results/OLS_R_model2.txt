@@ -1,0 +1,92 @@
+
+Call:
+lm(formula = debtpp ~ unem + elecyr + cpi + population + socialwalfarepp + 
+    unanimous + revenuepp + lowincomehh + expect + party + relation + 
+    dpp + kmt + y67 + y68 + y69 + y70 + y71 + y72 + y73 + y74 + 
+    y75 + y76 + y77 + y78 + y79 + y80 + y81 + y82 + y83 + y84 + 
+    y85 + y86 + y87 + y88 + y89 + y90 + y91 + y92 + y93 + y94 + 
+    y95 + y96 + y97 + y98 + y99 + y100 + y101 + y102 + y103 + 
+    y104 + y105 + y106 + y107 + y108 + chc + tw + hcc + tpe + 
+    ntpc + tao + tcc + tnn + kao + kee + yil, data = d)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0141401 -0.0028819  0.0000677  0.0026066  0.0112126 
+
+Coefficients: (28 not defined because of singularities)
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      4.674e-02  2.431e-01   0.192 0.847912    
+unem            -1.141e-02  4.929e-03  -2.314 0.022729 *  
+elecyr           1.044e-04  2.213e-03   0.047 0.962463    
+cpi              4.573e-04  2.375e-03   0.193 0.847712    
+population      -1.050e-08  1.263e-08  -0.831 0.407813    
+socialwalfarepp  7.500e-01  4.718e-01   1.589 0.115139    
+unanimous        8.214e-03  3.225e-03   2.547 0.012400 *  
+revenuepp       -2.023e-01  2.177e-01  -0.929 0.354896    
+lowincomehh      2.182e-03  2.674e-03   0.816 0.416538    
+expect           2.460e-03  1.237e-03   1.989 0.049482 *  
+party            5.011e-05  2.498e-03   0.020 0.984037    
+relation        -4.807e-03  1.394e-03  -3.449 0.000828 ***
+dpp              8.058e-03  2.872e-03   2.805 0.006052 ** 
+kmt                     NA         NA      NA       NA    
+y67                     NA         NA      NA       NA    
+y68                     NA         NA      NA       NA    
+y69                     NA         NA      NA       NA    
+y70                     NA         NA      NA       NA    
+y71                     NA         NA      NA       NA    
+y72                     NA         NA      NA       NA    
+y73                     NA         NA      NA       NA    
+y74                     NA         NA      NA       NA    
+y75                     NA         NA      NA       NA    
+y76                     NA         NA      NA       NA    
+y77                     NA         NA      NA       NA    
+y78                     NA         NA      NA       NA    
+y79                     NA         NA      NA       NA    
+y80                     NA         NA      NA       NA    
+y81                     NA         NA      NA       NA    
+y82                     NA         NA      NA       NA    
+y83                     NA         NA      NA       NA    
+y84                     NA         NA      NA       NA    
+y85                     NA         NA      NA       NA    
+y86                     NA         NA      NA       NA    
+y87                     NA         NA      NA       NA    
+y88                     NA         NA      NA       NA    
+y89             -3.550e-02  3.820e-02  -0.929 0.354971    
+y90             -1.148e-02  3.845e-02  -0.298 0.765948    
+y91              5.352e-03  3.736e-02   0.143 0.886376    
+y92              6.009e-03  3.774e-02   0.159 0.873818    
+y93              2.275e-03  3.446e-02   0.066 0.947481    
+y94             -3.527e-04  3.109e-02  -0.011 0.990973    
+y95             -4.578e-03  2.892e-02  -0.158 0.874536    
+y96             -5.980e-03  2.519e-02  -0.237 0.812829    
+y97              1.231e-03  1.733e-02   0.071 0.943502    
+y98              1.975e-02  2.172e-02   0.909 0.365382    
+y99              1.355e-02  1.822e-02   0.744 0.458594    
+y100             5.155e-03  1.403e-02   0.367 0.714122    
+y101             2.977e-03  9.836e-03   0.303 0.762795    
+y102             4.232e-03  8.092e-03   0.523 0.602168    
+y103             1.889e-03  6.828e-03   0.277 0.782618    
+y104            -2.673e-03  6.022e-03  -0.444 0.658148    
+y105             1.932e-03  3.146e-03   0.614 0.540539    
+y106                    NA         NA      NA       NA    
+y107                    NA         NA      NA       NA    
+y108                    NA         NA      NA       NA    
+chc             -2.414e-02  1.307e-02  -1.846 0.067812 .  
+tw                      NA         NA      NA       NA    
+hcc             -1.434e-02  3.413e-03  -4.202 5.79e-05 ***
+tpe              5.003e-02  2.484e-02   2.014 0.046761 *  
+ntpc             1.161e-02  4.486e-02   0.259 0.796302    
+tao             -1.235e-02  2.213e-02  -0.558 0.578196    
+tcc              1.027e-02  2.938e-02   0.350 0.727380    
+tnn             -6.581e-03  1.878e-02  -0.350 0.726736    
+kao              5.341e-02  2.917e-02   1.831 0.070075 .  
+kee             -2.461e-02  2.945e-03  -8.359 4.06e-13 ***
+yil                     NA         NA      NA       NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.005037 on 99 degrees of freedom
+  (292 observations deleted due to missingness)
+Multiple R-squared:  0.9664,	Adjusted R-squared:  0.9535 
+F-statistic: 74.96 on 38 and 99 DF,  p-value: < 2.2e-16
+
