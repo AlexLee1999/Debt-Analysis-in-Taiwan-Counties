@@ -1,0 +1,31 @@
+
+Call:
+lm(formula = debtpp ~ unem + revenuepp + socialwalfarepp + elecyr + 
+    party + unanimous + relation + expect + unem:elecyr + lowincomehh, 
+    data = d)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.024406 -0.009979 -0.000647  0.008739  0.037458 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     -0.035167   0.013706  -2.566 0.011454 *  
+unem             0.002334   0.002637   0.885 0.377699    
+revenuepp        0.372890   0.183386   2.033 0.044099 *  
+socialwalfarepp  3.145376   0.788326   3.990 0.000111 ***
+elecyr           0.007695   0.017199   0.447 0.655327    
+party            0.008682   0.004033   2.153 0.033214 *  
+unanimous        0.009120   0.004568   1.996 0.048027 *  
+relation        -0.007733   0.002381  -3.248 0.001488 ** 
+expect           0.005456   0.002508   2.176 0.031424 *  
+lowincomehh      0.014755   0.002907   5.075 1.34e-06 ***
+unem:elecyr     -0.001846   0.004001  -0.461 0.645310    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01293 on 127 degrees of freedom
+  (292 observations deleted due to missingness)
+Multiple R-squared:  0.716,	Adjusted R-squared:  0.6936 
+F-statistic: 32.02 on 10 and 127 DF,  p-value: < 2.2e-16
+
